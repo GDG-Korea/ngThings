@@ -1,28 +1,26 @@
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/GDG-Korea/ngThings.git"
   },
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "angularjs 2.0"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "author": "GDG Korea WebTech AngularJS Study Team",
+  "license": "MIT",
   "devDependencies": {
     "electron-prebuilt": "^0.35.0"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.48",
+    "systemjs": "^0.19.6"
   }
 }
