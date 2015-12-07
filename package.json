@@ -23,6 +23,14 @@
   },
   "homepage": "https://github.com/atom/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.35.0"
+    "del": "^2.2.0",
+    "electron-prebuilt": "^0.35.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^4.1.1",
+    "gulp-typescript": "^2.10.0",
+    "tslint": "^3.1.1"
   }
 }
