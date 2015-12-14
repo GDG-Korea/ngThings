@@ -9,5 +9,50 @@
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+    
+    
+    <script>
+      
+      const ipcRenderer = require('electron').ipcRenderer;
+
+      ipcRenderer.on('read', function(event, arg) {
+        
+        console.log(arg);
+      
+      });
+      
+      ipcRenderer.send('read');
+      
+      /*
+      ipcRenderer.send('add', {
+        
+        title:"test title",
+        project:"test project",
+        contents:"test contents"
+        
+      });
+      */
+      
+      /*
+      ipcRenderer.send('edit', {
+        
+        title:"test title2",
+        project:"test project2",
+        contents:"test contents2",
+        reg_date:1450088339558
+        
+      });
+      */
+      
+      /*
+      ipcRenderer.send('delete', {
+        
+        reg_date:1450088339558
+        
+      });
+      */
+      
+    </script>
+    
   </body>
 </html>
